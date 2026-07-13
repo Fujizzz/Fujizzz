@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Fuji</h1>
 
 <p align="center">
-  AI for Software Engineering · LLM Code Generation · Evaluation · Agents
+  AI Research · Large Language Models · NLP · AI for Software Engineering
 </p>
 
 <p align="center">
@@ -12,19 +12,29 @@
 
 ## About Me
 
-I work at the intersection of artificial intelligence and software engineering, with a focus on how large language models generate, understand, and improve code. My undergraduate research at Chongqing University studies repository-level code completion through reproducible, multidimensional evaluation.
+I work on large-language-model systems across natural language processing and software engineering. My research at Chongqing University focuses on prompt-guided data augmentation, low-resource learning, repository-level code generation, and rigorous model evaluation.
 
 I care about rigorous experiments, transparent evaluation, and engineering systems that turn model capabilities into reliable developer tools.
 
 ## Research Interests
 
 - Large language models for software engineering
+- Prompt tuning and LLM-guided data augmentation
+- Low-resource NLP and fake-news detection
 - Repository-level code generation and completion
 - Code quality, correctness, and risk evaluation
 - Retrieval-augmented generation and coding agents
 - Reproducible machine learning systems
 
 ## Featured Research
+
+### [SharP: Soft and Hard Prompt-Guided Augmentation with LLM](https://github.com/Fujizzz/SharP)
+
+My primary research-code release for low-resource fake-news detection. SharP combines a learnable soft prompt, a structured hard prompt, uncertainty-based active selection, and detector feedback to generate useful samples near the classifier decision boundary.
+
+**Methods:** soft prompting, hard prompting, active learning, and LLM data augmentation<br>
+**Benchmarks:** PHEME, LIAR, and Twitter15/16<br>
+**Artifact:** source code, experiment variants, architecture figures, paper, citation metadata, and automated code checks
 
 ### [Multidimensional Comparative Evaluation of Human-Written and LLM-Generated Code](https://github.com/Fujizzz/Multidimensional-Comparative-Evaluation-of-Human-Written-and-LLM-Generated-Code)
 
